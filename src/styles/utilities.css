@@ -1,0 +1,74 @@
+:root {
+  --font-family: 'Helvetica, Arial, sans-serif';
+  --font-size-base: 16px;
+  --font-size-small: 14px;
+  --font-size-large: 20px;
+  --line-height: 1.5;
+
+  --color-primary: #007bff;
+  --color-secondary: #6c757d;
+  --color-success: #28a745;
+  --color-danger: #dc3545;
+  --color-warning: #ffc107;
+  --color-info: #17a2b8;
+  --color-light: #f8f9fa;
+  --color-dark: #343a40;
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 16px;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.utility-margin {
+  margin: var(--spacing-md);
+}
+
+.utility-padding {
+  padding: var(--spacing-md);
+}
+
+.utility-text-center {
+  text-align: center;
+}
+
+.utility-flex {
+  display: flex;
+}
+
+.utility-flex-column {
+  flex-direction: column;
+}
+
+.utility-hidden {
+  display: none;
+}
+
+.utility-visible {
+  display: block;
+}
+
+.utility-bg-primary {
+  background-color: var(--color-primary);
+}
+
+.utility-bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.utility-text-primary {
+  color: var(--color-primary);
+}
+
+.utility-text-secondary {
+  color: var(--color-secondary);
+}

@@ -1,0 +1,58 @@
+export const mockTransactions = [
+  {
+    id: '1',
+    date: '2023-10-01',
+    description: 'Payment to Vendor A',
+    amount: -150.00,
+    category: 'Expenses',
+  },
+  {
+    id: '2',
+    date: '2023-10-02',
+    description: 'Salary Payment',
+    amount: 3000.00,
+    category: 'Income',
+  },
+  {
+    id: '3',
+    date: '2023-10-03',
+    description: 'Payment to Vendor B',
+    amount: -200.00,
+    category: 'Expenses',
+  },
+  {
+    id: '4',
+    date: '2023-10-04',
+    description: 'Investment Income',
+    amount: 500.00,
+    category: 'Income',
+  },
+  {
+    id: '5',
+    date: '2023-10-05',
+    description: 'Utility Bill',
+    amount: -100.00,
+    category: 'Expenses',
+  },
+  {
+    id: '6',
+    date: '2023-10-06',
+    description: 'Payment to Vendor C',
+    amount: -250.00,
+    category: 'Expenses',
+  },
+  {
+    id: '7',
+    date: '2023-10-07',
+    description: 'Freelance Work',
+    amount: 1200.00,
+    category: 'Income',
+  },
+  {
+    id: '8',
+    date: '2023-10-08',
+    description: 'Payment to Vendor D',
+    amount: -300.00,
+    category: 'Expenses',
+  },
+];
